@@ -1,0 +1,34 @@
+{
+  "model": "agcrn",
+  "dataset": "pemsbay",
+  "best_config": {
+    "batch_size": 16,
+    "emb_size": 17,
+    "hidden_size": 128,
+    "lr": 0.0010703401362,
+    "n_layers": 3
+  },
+  "test_results": [
+    {
+      "test_mae": 1.6529943943023682,
+      "test_mae_at_12": 1.9804869890213013,
+      "test_mae_at_3": 1.4026644229888916,
+      "test_mae_at_6": 1.7208969593048096,
+      "test_mape": 0.0376044362783432,
+      "test_mape_at_12": 0.04592621698975563,
+      "test_mape_at_3": 0.030739281326532364,
+      "test_mape_at_6": 0.039438728243112564,
+      "test_rmse": 3.798940896987915,
+      "test_rmse_at_12": 4.596642017364502,
+      "test_rmse_at_3": 2.95450496673584,
+      "test_rmse_at_6": 3.932796001434326,
+      "test_loss": 1.6529473066329956
+    }
+  ],
+  "n_trials": 10000,
+  "eta": 3,
+  "min_budget": 3,
+  "max_budget": 11,
+  "final_epochs": 30,
+  "seed": 42
+}

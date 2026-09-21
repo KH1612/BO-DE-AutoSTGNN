@@ -1,0 +1,34 @@
+{
+  "model": "agcrn",
+  "dataset": "metrla",
+  "best_config": {
+    "batch_size": 16,
+    "emb_size": 20,
+    "hidden_size": 128,
+    "lr": 0.0002931439145,
+    "n_layers": 2
+  },
+  "test_results": [
+    {
+      "test_mae": 3.153665542602539,
+      "test_mae_at_12": 3.584622621536255,
+      "test_mae_at_3": 2.835635185241699,
+      "test_mae_at_6": 3.217163562774658,
+      "test_mape": 0.08847050368785858,
+      "test_mape_at_12": 0.10471560806035995,
+      "test_mape_at_3": 0.07580956816673279,
+      "test_mape_at_6": 0.09109204262495041,
+      "test_rmse": 6.431575298309326,
+      "test_rmse_at_12": 7.453169822692871,
+      "test_rmse_at_3": 5.5179243087768555,
+      "test_rmse_at_6": 6.559927940368652,
+      "test_loss": 2.990814208984375
+    }
+  ],
+  "n_trials": 10000,
+  "eta": 3,
+  "min_budget": 3,
+  "max_budget": 11,
+  "final_epochs": 30,
+  "seed": 42
+}

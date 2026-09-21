@@ -1,0 +1,37 @@
+{
+  "model": "stgcn",
+  "dataset": "metrla",
+  "best_config": {
+    "batch_size": 64,
+    "dropout": 0.0518859471725,
+    "ff_size": 128,
+    "hidden_size": 64,
+    "lr": 0.0039397424813,
+    "n_layers": 3,
+    "spatial_kernel_size": 3,
+    "temporal_kernel_size": 5
+  },
+  "test_results": [
+    {
+      "test_mae": 3.2620348930358887,
+      "test_mae_at_12": 3.913501501083374,
+      "test_mae_at_3": 2.8249576091766357,
+      "test_mae_at_6": 3.2749884128570557,
+      "test_mape": 0.0891183614730835,
+      "test_mape_at_12": 0.11338411271572113,
+      "test_mape_at_3": 0.07339027523994446,
+      "test_mape_at_6": 0.08948162198066711,
+      "test_rmse": 6.453213214874268,
+      "test_rmse_at_12": 7.808111190795898,
+      "test_rmse_at_3": 5.340752124786377,
+      "test_rmse_at_6": 6.458199977874756,
+      "test_loss": 3.1487739086151123
+    }
+  ],
+  "n_trials": 10000,
+  "eta": 3,
+  "min_budget": 3,
+  "max_budget": 11,
+  "final_epochs": 30,
+  "seed": 42
+}

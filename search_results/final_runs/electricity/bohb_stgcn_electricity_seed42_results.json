@@ -1,0 +1,37 @@
+{
+  "model": "stgcn",
+  "dataset": "electricity",
+  "best_config": {
+    "batch_size": 16,
+    "dropout": 0.0743783255838,
+    "ff_size": 256,
+    "hidden_size": 128,
+    "lr": 0.001967308369,
+    "n_layers": 2,
+    "spatial_kernel_size": 2,
+    "temporal_kernel_size": 4
+  },
+  "test_results": [
+    {
+      "test_mae": 247.77886962890625,
+      "test_mae_at_12": 247.6650390625,
+      "test_mae_at_3": 232.5825958251953,
+      "test_mae_at_6": 263.4068908691406,
+      "test_mape": 0.16023516654968262,
+      "test_mape_at_12": 0.16296106576919556,
+      "test_mape_at_3": 0.14849618077278137,
+      "test_mape_at_6": 0.1735282689332962,
+      "test_rmse": 2013.5191650390625,
+      "test_rmse_at_12": 1989.5931396484375,
+      "test_rmse_at_3": 1758.35791015625,
+      "test_rmse_at_6": 2116.420166015625,
+      "test_loss": 247.8013916015625
+    }
+  ],
+  "n_trials": 10000,
+  "eta": 3,
+  "min_budget": 4,
+  "max_budget": 12,
+  "final_epochs": 30,
+  "seed": 42
+}

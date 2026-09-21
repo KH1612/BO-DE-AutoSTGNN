@@ -1,0 +1,37 @@
+{
+  "model": "graphwavenet",
+  "dataset": "pemsbay",
+  "best_config": {
+    "batch_size": 128,
+    "dropout": 0.4299702033682,
+    "emb_size": 16,
+    "ff_size": 256,
+    "hidden_size": 64,
+    "learned_adjacency": true,
+    "lr": 0.0032413268042,
+    "n_layers": 10
+  },
+  "test_results": [
+    {
+      "test_mae": 1.5891752243041992,
+      "test_mae_at_12": 1.959917426109314,
+      "test_mae_at_3": 1.3141307830810547,
+      "test_mae_at_6": 1.65325129032135,
+      "test_mape": 0.0363517589867115,
+      "test_mape_at_12": 0.04692002013325691,
+      "test_mape_at_3": 0.02785901539027691,
+      "test_mape_at_6": 0.038127072155475616,
+      "test_rmse": 3.6974661350250244,
+      "test_rmse_at_12": 4.579093933105469,
+      "test_rmse_at_3": 2.7781150341033936,
+      "test_rmse_at_6": 3.7909011840820312,
+      "test_loss": 1.5891408920288086
+    }
+  ],
+  "n_trials": 10000,
+  "eta": 3,
+  "min_budget": 4,
+  "max_budget": 12,
+  "final_epochs": 30,
+  "seed": 42
+}

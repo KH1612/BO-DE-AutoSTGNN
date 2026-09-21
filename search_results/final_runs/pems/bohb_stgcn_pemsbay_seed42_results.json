@@ -1,0 +1,37 @@
+{
+  "model": "stgcn",
+  "dataset": "pemsbay",
+  "best_config": {
+    "batch_size": 16,
+    "dropout": 0.0513313162843,
+    "ff_size": 512,
+    "hidden_size": 128,
+    "lr": 0.0013790982421,
+    "n_layers": 3,
+    "spatial_kernel_size": 1,
+    "temporal_kernel_size": 4
+  },
+  "test_results": [
+    {
+      "test_mae": 1.7262084484100342,
+      "test_mae_at_12": 2.2334582805633545,
+      "test_mae_at_3": 1.3645925521850586,
+      "test_mae_at_6": 1.7652549743652344,
+      "test_mape": 0.03986474871635437,
+      "test_mape_at_12": 0.0544656477868557,
+      "test_mape_at_3": 0.02877204120159149,
+      "test_mape_at_6": 0.0407380610704422,
+      "test_rmse": 4.005926609039307,
+      "test_rmse_at_12": 5.1485209465026855,
+      "test_rmse_at_3": 2.858121395111084,
+      "test_rmse_at_6": 4.000112533569336,
+      "test_loss": 1.7261546850204468
+    }
+  ],
+  "n_trials": 10000,
+  "eta": 3,
+  "min_budget": 3,
+  "max_budget": 11,
+  "final_epochs": 30,
+  "seed": 42
+}
