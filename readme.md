@@ -1,5 +1,5 @@
 # AutoSTGNN BO-DE code
-[Github](https://github.com/KH1612/AutoSTGNN)
+[Github](https://github.com/KH1612/BO-DE-AutoSTGNN)
 
 This code is for benchmarking BO-DE against a Random Search baseline.
 
